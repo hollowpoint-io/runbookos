@@ -1,0 +1,13 @@
+{
+  "id": "proposal-builder",
+  "title": "Proposal Builder",
+  "version": "0.2.0",
+  "triggers": ["build proposal", "create proposal", "write proposal", "client proposal", "scope proposal"],
+  "modelTier": "deep",
+  "requiredTools": ["ahrefs", "brightdata"],
+  "writesTo": ["workspace/clients/<client>/proposals", "workspace/clients/<client>/research"],
+  "safety": {
+    "requiresApprovalFor": ["sending or sharing a proposal externally", "final pricing not provided by the user", "moving a draft onto any client-visible system"],
+    "forbidden": ["sending a proposal directly", "guaranteed rankings, revenue, or ROI claims", "including internal margin or cost data without explicit request"]
+  }
+}

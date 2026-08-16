@@ -1,0 +1,13 @@
+{
+  "id": "shopify-audit",
+  "title": "Shopify Audit",
+  "version": "0.2.0",
+  "triggers": ["shopify audit", "store audit", "audit store", "theme audit"],
+  "modelTier": "balanced",
+  "requiredTools": ["shopify"],
+  "writesTo": ["workspace/clients/<client>/reports"],
+  "safety": {
+    "requiresApprovalFor": ["any live store mutation, including fixes for issues found during the audit"],
+    "forbidden": ["exposing customer data in reports", "persisting access tokens", "bulk mutations from within an audit session", "publishing a theme"]
+  }
+}

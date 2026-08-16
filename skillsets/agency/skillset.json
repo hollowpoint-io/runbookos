@@ -1,0 +1,21 @@
+{
+  "id": "agency",
+  "title": "Agency Operator",
+  "version": "0.1.0",
+  "description": "General agency and fractional digital engineering skill group for SEO, content, lead generation, ecommerce, and wrap-up work.",
+  "skills": [
+    "seo-research",
+    "competitor-analysis",
+    "local-seo",
+    "lead-generation",
+    "content-writing",
+    "proposal-builder",
+    "shopify-audit",
+    "session-wrapup"
+  ],
+  "requiredTools": [
+    "workspace",
+    "memory",
+    "ahrefs"
+  ]
+}

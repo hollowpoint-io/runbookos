@@ -1,0 +1,229 @@
+{
+  "capturedAt": "2026-05-06T09:00:00.000Z",
+  "source": "public-demo-fixture",
+  "target": {
+    "domain": "demo-commerce.example",
+    "market": "gb",
+    "clientName": "Demo Commerce"
+  },
+  "keywordOverview": [
+    {
+      "keyword": "desk lamp",
+      "country": "gb",
+      "volume": 4200,
+      "difficulty": 38,
+      "cpc": 0.82,
+      "intent": "commercial",
+      "parentTopic": "home office lighting",
+      "currentPosition": 18,
+      "currentUrl": "https://demo-commerce.example/collections/home-office"
+    },
+    {
+      "keyword": "ergonomic desk accessories",
+      "country": "gb",
+      "volume": 1600,
+      "difficulty": 29,
+      "cpc": 1.1,
+      "intent": "commercial",
+      "parentTopic": "office accessories",
+      "currentPosition": 31,
+      "currentUrl": "https://demo-commerce.example/blogs/guides/home-office-setup"
+    },
+    {
+      "keyword": "minimalist tote bag",
+      "country": "gb",
+      "volume": 900,
+      "difficulty": 21,
+      "cpc": 0.64,
+      "intent": "transactional",
+      "parentTopic": "everyday tote",
+      "currentPosition": 12,
+      "currentUrl": "https://demo-commerce.example/products/everyday-tote"
+    }
+  ],
+  "matchingTerms": [
+    {
+      "keyword": "best desk lamp for home office",
+      "country": "gb",
+      "volume": 1300,
+      "difficulty": 27,
+      "cpc": 0.98,
+      "intent": "commercial",
+      "parentTopic": "home office lighting",
+      "currentPosition": 24,
+      "currentUrl": "https://demo-commerce.example/collections/home-office"
+    },
+    {
+      "keyword": "adjustable desk lamp",
+      "country": "gb",
+      "volume": 2100,
+      "difficulty": 34,
+      "cpc": 0.76,
+      "intent": "commercial",
+      "parentTopic": "desk lamp",
+      "currentPosition": 19,
+      "currentUrl": "https://demo-commerce.example/products/desk-lamp"
+    },
+    {
+      "keyword": "warm light desk lamp",
+      "country": "gb",
+      "volume": 700,
+      "difficulty": 18,
+      "cpc": 0.52,
+      "intent": "transactional",
+      "parentTopic": "desk lamp",
+      "currentPosition": 42,
+      "currentUrl": "https://demo-commerce.example/products/desk-lamp"
+    },
+    {
+      "keyword": "home office accessories uk",
+      "country": "gb",
+      "volume": 850,
+      "difficulty": 24,
+      "cpc": 1.25,
+      "intent": "commercial",
+      "parentTopic": "office accessories",
+      "currentPosition": 37,
+      "currentUrl": "https://demo-commerce.example/collections/home-office"
+    }
+  ],
+  "siteOverview": {
+    "domain": "demo-commerce.example",
+    "country": "gb",
+    "domainRating": 22,
+    "organicTraffic": 1840,
+    "organicKeywords": 612,
+    "referringDomains": 118,
+    "topCompetitors": [
+      "example-homeware.test",
+      "workspace-style.test",
+      "bright-desk.test"
+    ]
+  },
+  "organicKeywords": [
+    {
+      "keyword": "desk lamp",
+      "country": "gb",
+      "volume": 4200,
+      "difficulty": 38,
+      "cpc": 0.82,
+      "intent": "commercial",
+      "parentTopic": "home office lighting",
+      "currentPosition": 18,
+      "currentUrl": "https://demo-commerce.example/collections/home-office",
+      "url": "https://demo-commerce.example/collections/home-office",
+      "traffic": 95,
+      "position": 18
+    },
+    {
+      "keyword": "everyday tote",
+      "country": "gb",
+      "volume": 1200,
+      "difficulty": 17,
+      "cpc": 0.44,
+      "intent": "transactional",
+      "parentTopic": "minimalist tote bag",
+      "currentPosition": 7,
+      "currentUrl": "https://demo-commerce.example/products/everyday-tote",
+      "url": "https://demo-commerce.example/products/everyday-tote",
+      "traffic": 144,
+      "position": 7
+    },
+    {
+      "keyword": "home office setup ideas",
+      "country": "gb",
+      "volume": 2400,
+      "difficulty": 31,
+      "cpc": 0.38,
+      "intent": "informational",
+      "parentTopic": "home office",
+      "currentPosition": 28,
+      "currentUrl": "https://demo-commerce.example/blogs/guides/home-office-setup",
+      "url": "https://demo-commerce.example/blogs/guides/home-office-setup",
+      "traffic": 42,
+      "position": 28
+    }
+  ],
+  "topPages": [
+    {
+      "url": "https://demo-commerce.example/products/everyday-tote",
+      "title": "Everyday Tote",
+      "traffic": 320,
+      "keywords": 42,
+      "topKeyword": "everyday tote",
+      "opportunityNote": "Protect ranking with stronger product FAQ and internal links from collection pages."
+    },
+    {
+      "url": "https://demo-commerce.example/collections/home-office",
+      "title": "Home Office",
+      "traffic": 215,
+      "keywords": 67,
+      "topKeyword": "desk lamp",
+      "opportunityNote": "Refresh collection copy around desk lighting and ergonomic accessory terms."
+    },
+    {
+      "url": "https://demo-commerce.example/blogs/guides/home-office-setup",
+      "title": "Home Office Setup Guide",
+      "traffic": 88,
+      "keywords": 53,
+      "topKeyword": "home office setup ideas",
+      "opportunityNote": "Add product-led sections that answer setup intent and route users to relevant collections."
+    }
+  ],
+  "competitorGap": [
+    {
+      "keyword": "small desk lamp",
+      "country": "gb",
+      "volume": 1800,
+      "difficulty": 25,
+      "competitors": [
+        {
+          "domain": "bright-desk.test",
+          "position": 4,
+          "url": "https://bright-desk.test/small-desk-lamps"
+        },
+        {
+          "domain": "workspace-style.test",
+          "position": 8,
+          "url": "https://workspace-style.test/desk-lighting"
+        }
+      ],
+      "opportunity": "optimize"
+    },
+    {
+      "keyword": "desk accessories set",
+      "country": "gb",
+      "volume": 950,
+      "difficulty": 22,
+      "targetPosition": 44,
+      "competitors": [
+        {
+          "domain": "example-homeware.test",
+          "position": 6,
+          "url": "https://example-homeware.test/collections/desk-accessories"
+        }
+      ],
+      "opportunity": "create"
+    },
+    {
+      "keyword": "canvas tote bag with pockets",
+      "country": "gb",
+      "volume": 750,
+      "difficulty": 19,
+      "targetPosition": 21,
+      "competitors": [
+        {
+          "domain": "example-homeware.test",
+          "position": 9,
+          "url": "https://example-homeware.test/products/canvas-pocket-tote"
+        }
+      ],
+      "opportunity": "refresh"
+    }
+  ],
+  "limits": {
+    "maxRowsPerTool": 100,
+    "paidApiUnitsUsed": 0,
+    "liveData": false
+  }
+}

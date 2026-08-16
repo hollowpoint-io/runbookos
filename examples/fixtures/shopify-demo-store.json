@@ -1,0 +1,160 @@
+{
+  "store": {
+    "domain": "demo-commerce.example",
+    "name": "Demo Commerce",
+    "currency": "GBP",
+    "theme": {
+      "name": "Baseline Demo Theme",
+      "version": "1.0.0",
+      "issues": [
+        "No visible trust messaging on product pages",
+        "Collection templates use generic SEO copy"
+      ]
+    }
+  },
+  "products": [
+    {
+      "handle": "everyday-tote",
+      "title": "Everyday Tote",
+      "status": "active",
+      "vendor": "Demo Commerce",
+      "type": "Bags",
+      "tags": [
+        "travel",
+        "work"
+      ],
+      "price": 48,
+      "compareAtPrice": 58,
+      "inventory": 2,
+      "seoTitle": "Everyday Tote",
+      "seoDescription": "",
+      "imageAltCoverage": "partial"
+    },
+    {
+      "handle": "desk-lamp",
+      "title": "Desk Lamp",
+      "status": "active",
+      "vendor": "Demo Commerce",
+      "type": "Home",
+      "tags": [
+        "home-office"
+      ],
+      "price": 64,
+      "inventory": 18,
+      "seoTitle": "",
+      "seoDescription": "",
+      "imageAltCoverage": "missing",
+      "merchandisingNote": "Hero candidate once SEO and image alt fields are complete."
+    },
+    {
+      "handle": "travel-mug",
+      "title": "Travel Mug",
+      "status": "draft",
+      "vendor": "Demo Commerce",
+      "type": "Accessories",
+      "tags": [
+        "commute",
+        "reusable"
+      ],
+      "price": 22,
+      "inventory": 40,
+      "seoTitle": "Insulated Travel Mug",
+      "seoDescription": "Reusable insulated travel mug for daily commutes.",
+      "imageAltCoverage": "complete"
+    },
+    {
+      "handle": "linen-notebook",
+      "title": "Linen Notebook",
+      "status": "active",
+      "vendor": "Demo Commerce",
+      "type": "Stationery",
+      "tags": [
+        "desk",
+        "gift"
+      ],
+      "price": 18,
+      "inventory": 9,
+      "seoTitle": "Linen Notebook",
+      "seoDescription": "Hardcover linen notebook for daily planning and desk notes.",
+      "imageAltCoverage": "complete",
+      "merchandisingNote": "Cross-sell with desk accessories."
+    }
+  ],
+  "collections": [
+    {
+      "handle": "new-arrivals",
+      "title": "New Arrivals",
+      "productCount": 2,
+      "description": "",
+      "seoTitle": "New Arrivals",
+      "seoDescription": "",
+      "imageAltCoverage": "partial"
+    },
+    {
+      "handle": "home-office",
+      "title": "Home Office",
+      "productCount": 1,
+      "description": "Practical products for focused workspaces.",
+      "seoTitle": "",
+      "seoDescription": "Home office essentials for focused work.",
+      "imageAltCoverage": "complete"
+    },
+    {
+      "handle": "gifts-under-50",
+      "title": "Gifts Under 50",
+      "productCount": 2,
+      "description": "Giftable everyday goods under 50.",
+      "seoTitle": "Gifts Under 50",
+      "seoDescription": "Useful gifts under 50 for home, work, and travel.",
+      "imageAltCoverage": "complete"
+    }
+  ],
+  "navigation": {
+    "menus": [
+      {
+        "title": "Main menu",
+        "itemCount": 6,
+        "orphanedHandles": [
+          "summer-sale"
+        ]
+      },
+      {
+        "title": "Footer",
+        "itemCount": 8,
+        "orphanedHandles": []
+      }
+    ]
+  },
+  "content": {
+    "pages": [
+      {
+        "handle": "about",
+        "title": "About Demo Commerce",
+        "status": "published",
+        "hasSeoFields": true
+      },
+      {
+        "handle": "stockists",
+        "title": "Stockists",
+        "status": "published",
+        "hasSeoFields": false
+      }
+    ],
+    "blogPostCount": 3
+  },
+  "performance": {
+    "mobileSpeedScore": 54,
+    "largestContentfulPaintSeconds": 4.1,
+    "brokenLinks": 2
+  },
+  "operations": {
+    "redirectsChecked": false,
+    "marketsConfigured": true,
+    "analyticsConfigured": false,
+    "customerDataIncluded": false,
+    "policiesConfigured": [
+      "privacy"
+    ],
+    "appCount": 14
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@runbookos/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "runbook": "dist/index.js"
+  },
+  "dependencies": {
+    "@runbookos/config": "workspace:*",
+    "@runbookos/core": "workspace:*",
+    "@runbookos/mcp-ahrefs": "workspace:*",
+    "@runbookos/mcp-gmail": "workspace:*",
+    "@runbookos/mcp-shopify": "workspace:*",
+    "@runbookos/skills": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "author": "Billy Mahmood <https://hollowpoint.io>",
+  "license": "MIT",
+  "homepage": "https://github.com/hollowpoint-io/runbookos",
+  "bugs": {
+    "url": "https://github.com/hollowpoint-io/runbookos/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowpoint-io/runbookos.git",
+    "directory": "apps/cli"
+  },
+  "keywords": [
+    "runbookos",
+    "claude",
+    "codex",
+    "mcp",
+    "shopify",
+    "agency",
+    "workspace"
+  ],
+  "files": [
+    "dist"
+  ],
+  "description": "RunbookOS CLI \u2014 init workspaces, generate adapters, and wire MCP tools.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}

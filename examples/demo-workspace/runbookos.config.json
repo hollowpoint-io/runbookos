@@ -1,0 +1,38 @@
+{
+  "name": "RunbookOS Demo Workspace",
+  "defaultProvider": "codex",
+  "modelTiers": {
+    "deep": {
+      "claude": "opus",
+      "codex": "gpt-5.5"
+    },
+    "balanced": {
+      "claude": "sonnet",
+      "codex": "gpt-5.4"
+    },
+    "fast": {
+      "claude": "haiku",
+      "codex": "gpt-5.4-mini"
+    }
+  },
+  "memory": {
+    "activeContextFile": "ACTIVE_CONTEXT.md",
+    "longTermFile": "MEMORY.md",
+    "dailyLogDir": "memory"
+  },
+  "workspace": {
+    "clientRoot": "workspace/clients",
+    "allowedWriteRoots": ["workspace", "memory", "outbox"]
+  },
+  "skills": ["seo-research", "shopify-audit", "content-writing", "session-wrapup"],
+  "mcpServers": {
+    "workspace": {
+      "enabled": true,
+      "env": []
+    },
+    "memory": {
+      "enabled": true,
+      "env": []
+    }
+  }
+}

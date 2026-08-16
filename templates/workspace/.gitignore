@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.runbookos/local.*
+.claude/settings.local.json
+.codex/local.toml
+node_modules/
+dist/
+*.log

@@ -1,0 +1,167 @@
+{
+  "capturedAt": "2026-05-06T09:30:00.000Z",
+  "source": "public-demo-fixture",
+  "business": {
+    "name": "Demo Commerce Studio",
+    "domain": "demo-commerce.example",
+    "market": "gb",
+    "primaryLocation": "Manchester",
+    "primaryCategory": "Ecommerce agency",
+    "serviceAreas": [
+      "Manchester",
+      "Salford",
+      "Stockport",
+      "Bolton"
+    ],
+    "gbpVerified": true,
+    "gbpCategories": [
+      "Marketing agency",
+      "Website designer"
+    ],
+    "photos": 8,
+    "postsLast90Days": 1
+  },
+  "rankings": [
+    {
+      "query": "shopify agency manchester",
+      "location": "Manchester",
+      "mapPackPosition": 5,
+      "organicPosition": 14,
+      "landingPage": "https://demo-commerce.example/services/shopify-agency-manchester",
+      "intent": "commercial"
+    },
+    {
+      "query": "ecommerce seo manchester",
+      "location": "Manchester",
+      "mapPackPosition": 8,
+      "organicPosition": 22,
+      "landingPage": "https://demo-commerce.example/services/ecommerce-seo",
+      "intent": "service"
+    },
+    {
+      "query": "shopify developer manchester",
+      "location": "Manchester",
+      "mapPackPosition": 3,
+      "organicPosition": 9,
+      "landingPage": "https://demo-commerce.example/services/shopify-development",
+      "intent": "service"
+    },
+    {
+      "query": "ecommerce consultant salford",
+      "location": "Salford",
+      "organicPosition": 18,
+      "landingPage": "https://demo-commerce.example/service-areas/salford",
+      "intent": "commercial"
+    }
+  ],
+  "citations": [
+    {
+      "source": "Google Business Profile",
+      "status": "present",
+      "napConsistent": true,
+      "url": "https://business.google.com/demo"
+    },
+    {
+      "source": "Bing Places",
+      "status": "present",
+      "napConsistent": true,
+      "url": "https://bingplaces.com/demo"
+    },
+    {
+      "source": "Apple Business Connect",
+      "status": "missing",
+      "napConsistent": false
+    },
+    {
+      "source": "Yell",
+      "status": "inconsistent",
+      "napConsistent": false,
+      "url": "https://yell.com/demo-commerce-studio"
+    },
+    {
+      "source": "LinkedIn Company Page",
+      "status": "present",
+      "napConsistent": true,
+      "url": "https://linkedin.com/company/demo-commerce-studio"
+    }
+  ],
+  "reviews": {
+    "rating": 4.6,
+    "count": 28,
+    "velocity90Days": 4,
+    "unansweredCount": 6,
+    "recurringThemes": [
+      "fast Shopify fixes",
+      "clear communication",
+      "limited public ecommerce case studies"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Northern Shopify Studio",
+      "rating": 4.8,
+      "reviewCount": 74,
+      "primaryCategory": "Website designer",
+      "mapPackWins": [
+        "shopify agency manchester",
+        "shopify developer manchester"
+      ],
+      "strengths": [
+        "more reviews",
+        "dedicated Manchester landing page",
+        "recent GBP photos"
+      ]
+    },
+    {
+      "name": "Greater Manchester Ecommerce",
+      "rating": 4.5,
+      "reviewCount": 41,
+      "primaryCategory": "Marketing agency",
+      "mapPackWins": [
+        "ecommerce seo manchester"
+      ],
+      "strengths": [
+        "service-specific GBP posts",
+        "citation consistency",
+        "local case studies"
+      ]
+    }
+  ],
+  "landingPages": [
+    {
+      "url": "https://demo-commerce.example/services/shopify-agency-manchester",
+      "title": "Shopify Agency Manchester",
+      "location": "Manchester",
+      "service": "Shopify agency",
+      "hasLocalBusinessSchema": false,
+      "hasTestimonials": true,
+      "internalLinks": 2,
+      "wordCount": 780
+    },
+    {
+      "url": "https://demo-commerce.example/services/ecommerce-seo",
+      "title": "Ecommerce SEO Services",
+      "location": "Manchester",
+      "service": "Ecommerce SEO",
+      "hasLocalBusinessSchema": false,
+      "hasTestimonials": false,
+      "internalLinks": 1,
+      "wordCount": 640
+    },
+    {
+      "url": "https://demo-commerce.example/service-areas/salford",
+      "title": "Ecommerce Support In Salford",
+      "location": "Salford",
+      "service": "Ecommerce consulting",
+      "hasLocalBusinessSchema": true,
+      "hasTestimonials": false,
+      "internalLinks": 2,
+      "wordCount": 520
+    }
+  ],
+  "limits": {
+    "liveData": false,
+    "scrapingUsed": false,
+    "googleBusinessProfileUsed": false
+  }
+}

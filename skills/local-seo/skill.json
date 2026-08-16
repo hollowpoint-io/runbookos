@@ -1,0 +1,13 @@
+{
+  "id": "local-seo",
+  "title": "Local SEO",
+  "version": "0.2.0",
+  "triggers": ["local seo", "service area pages", "gbp audit", "location pages"],
+  "modelTier": "deep",
+  "requiredTools": ["brightdata", "ahrefs"],
+  "writesTo": ["workspace/clients/<client>/local-seo"],
+  "safety": {
+    "requiresApprovalFor": ["publishing location or service pages", "editing a GBP listing", "directory or citation submissions"],
+    "forbidden": ["creating or editing GBP without explicit instruction", "publishing pages for unconfirmed service areas", "fabricating addresses, certifications, or coverage"]
+  }
+}

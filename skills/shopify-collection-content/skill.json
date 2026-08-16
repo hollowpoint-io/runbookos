@@ -1,0 +1,13 @@
+{
+  "id": "shopify-collection-content",
+  "title": "Shopify Collection Content",
+  "version": "0.2.0",
+  "triggers": ["collection content", "create collection", "collection page", "collection metafields"],
+  "modelTier": "deep",
+  "requiredTools": ["shopify", "ahrefs"],
+  "writesTo": ["workspace/clients/<client>/collections"],
+  "safety": {
+    "requiresApprovalFor": ["collection creation or update", "metafield or metaobject writes", "publishing content records"],
+    "forbidden": ["storing tokens", "overwriting existing content without a backup", "unsupported regulatory, medical, legal, or financial claims"]
+  }
+}

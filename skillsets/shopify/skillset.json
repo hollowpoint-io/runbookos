@@ -1,0 +1,22 @@
+{
+  "id": "shopify",
+  "title": "Shopify Operator",
+  "version": "0.1.0",
+  "description": "Public RunbookOS skill group for Shopify operators and ecommerce agencies.",
+  "skills": [
+    "shopify-audit",
+    "shopify-theme-audit",
+    "shopify-product-listing",
+    "shopify-collection-content",
+    "shopify-merchandising",
+    "shopify-bulk-operations",
+    "content-writing",
+    "image-generation"
+  ],
+  "requiredTools": [
+    "workspace",
+    "memory",
+    "shopify",
+    "image"
+  ]
+}

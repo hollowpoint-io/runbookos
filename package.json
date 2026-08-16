@@ -1,0 +1,58 @@
+{
+  "name": "runbookos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Model-agnostic AI operating workspace for ecommerce operators, agencies, and FDEs.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "user:start": "node scripts/user-start.mjs",
+    "bootstrap:source": "node scripts/bootstrap-source.mjs",
+    "runbook": "tsx apps/cli/src/index.ts",
+    "verify:json": "node -e \"const fs=require('fs'),path=require('path');function walk(d,a=[]){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.name==='.git'||e.name==='node_modules'||e.name==='dist')continue;if(e.isDirectory())walk(p,a);else if(e.name.endsWith('.json'))a.push(p)}return a}for(const f of walk('.'))JSON.parse(fs.readFileSync(f,'utf8'));console.log('all json ok')\"",
+    "verify:adapters": "pnpm -w build && node scripts/verify-adapters-smoke.mjs",
+    "verify:setup": "pnpm -w build && node scripts/verify-setup-smoke.mjs",
+    "verify:user-start": "pnpm -w build && node scripts/verify-user-start-smoke.mjs",
+    "verify:client": "pnpm -w build && node scripts/verify-client-smoke.mjs",
+    "verify:skillsets": "pnpm -w build && node scripts/verify-skillsets-smoke.mjs",
+    "verify:smoke": "pnpm -w build && node scripts/verify-smoke-smoke.mjs",
+    "verify:install": "pnpm -w build && node scripts/verify-install-smoke.mjs",
+    "verify:release": "pnpm -w build && node scripts/verify-release-check-smoke.mjs",
+    "verify:integrations": "pnpm -w build && node scripts/verify-integrations-smoke.mjs",
+    "verify:gmail": "pnpm -w build && node scripts/verify-gmail-smoke.mjs",
+    "verify:mcp": "pnpm -w build && node scripts/verify-mcp-smoke.mjs",
+    "verify:shopify": "pnpm -w build && node scripts/verify-shopify-smoke.mjs",
+    "verify:ahrefs": "pnpm -w build && node scripts/verify-ahrefs-smoke.mjs",
+    "verify:ahrefs-live": "pnpm -w build && node scripts/verify-ahrefs-live-smoke.mjs",
+    "verify:shopify-live": "pnpm -w build && node scripts/verify-shopify-live-smoke.mjs",
+    "release:npm": "pnpm -r --filter './packages/**' --filter './apps/**' publish --access public --no-git-checks"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "zod": "^4.3.6"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "author": "Billy Mahmood <https://hollowpoint.io>",
+  "homepage": "https://github.com/hollowpoint-io/runbookos",
+  "bugs": {
+    "url": "https://github.com/hollowpoint-io/runbookos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowpoint-io/runbookos.git"
+  },
+  "keywords": [
+    "runbookos",
+    "claude",
+    "codex",
+    "mcp",
+    "shopify",
+    "agency",
+    "workspace"
+  ]
+}

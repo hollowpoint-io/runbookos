@@ -1,0 +1,13 @@
+{
+  "id": "lead-generation",
+  "title": "Lead Generation",
+  "version": "0.2.0",
+  "triggers": ["find leads", "build lead list", "enrich leads", "draft outreach", "pipeline"],
+  "modelTier": "balanced",
+  "requiredTools": ["brightdata", "ahrefs"],
+  "writesTo": ["workspace/leads"],
+  "safety": {
+    "requiresApprovalFor": ["sending outreach (per message batch, never carried over)", "template changes", "market or niche expansion beyond config.md"],
+    "forbidden": ["guessing email addresses", "sending without explicit approval", "contacting do-not-contact leads", "extracting contact details without a source URL", "anti-spam or privacy violations"]
+  }
+}

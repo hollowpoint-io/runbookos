@@ -1,0 +1,13 @@
+{
+  "id": "shopify-product-listing",
+  "title": "Shopify Product Listing",
+  "version": "0.2.0",
+  "triggers": ["list products", "product listing", "create products", "add products", "shopify listing"],
+  "modelTier": "deep",
+  "requiredTools": ["shopify", "image"],
+  "writesTo": ["workspace/clients/<client>/products", "workspace/clients/<client>/assets"],
+  "safety": {
+    "requiresApprovalFor": ["live product creation or update", "image upload", "metafield update", "cost update", "SEO update"],
+    "forbidden": ["storing tokens", "exposing customer or order data", "inventing specs or regulated claims"]
+  }
+}

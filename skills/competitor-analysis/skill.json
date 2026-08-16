@@ -1,0 +1,13 @@
+{
+  "id": "competitor-analysis",
+  "title": "Competitor Analysis",
+  "version": "0.2.0",
+  "triggers": ["competitor analysis", "competitor research", "analyze competitor", "content gap", "pricing research"],
+  "modelTier": "deep",
+  "requiredTools": ["ahrefs", "brightdata"],
+  "writesTo": ["workspace/clients/<client>/research/competitors", "workspace/clients/<client>/reports/research"],
+  "safety": {
+    "requiresApprovalFor": ["contacting a competitor directly", "creating accounts on competitor systems", "sharing findings outside the workspace", "retaining raw scraped HTML"],
+    "forbidden": ["admin/API/private access to competitor systems", "bypassing robots.txt or rate limits", "storing credentials in research files"]
+  }
+}

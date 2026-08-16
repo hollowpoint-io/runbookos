@@ -1,0 +1,13 @@
+{
+  "id": "shopify-bulk-operations",
+  "title": "Shopify Bulk Operations",
+  "version": "0.2.0",
+  "triggers": ["bulk update", "bulk operation", "price cuts", "clearance", "redirects", "metafield bulk"],
+  "modelTier": "deep",
+  "requiredTools": ["shopify"],
+  "writesTo": ["workspace/clients/<client>/operations", "outbox"],
+  "safety": {
+    "requiresApprovalFor": ["every apply step after the dry-run", "each batch separately when applying in batches", "any change to an action list after approval"],
+    "forbidden": ["applying without a saved dry-run preview", "writing before a rollback file with old values exists", "continuing past a partial failure without instruction", "exposing customer/order data in previews, logs, or rollback files"]
+  }
+}

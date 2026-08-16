@@ -1,0 +1,13 @@
+{
+  "id": "new-skill",
+  "title": "New Skill",
+  "version": "0.1.0",
+  "triggers": [],
+  "modelTier": "balanced",
+  "requiredTools": [],
+  "writesTo": [],
+  "safety": {
+    "requiresApprovalFor": [],
+    "forbidden": []
+  }
+}

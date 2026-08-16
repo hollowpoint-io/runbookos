@@ -1,0 +1,14 @@
+{
+  "id": "email-operations",
+  "title": "Email Operations",
+  "version": "0.2.0",
+  "triggers": ["gmail", "email", "draft", "outbox", "inbox"],
+  "modelTier": "balanced",
+  "readsFrom": ["workspace/clients/<client>", "outbox/gmail"],
+  "writesTo": ["outbox/gmail", "outbox/approvals", "memory/daily"],
+  "tools": ["gmail.search", "gmail.message_metadata", "gmail.draft_create", "workspace.approval_preview", "memory.append_daily"],
+  "safety": {
+    "requiresApprovalFor": ["Gmail draft creation", "external email actions", "send actions"],
+    "forbidden": ["sending email without a separate approved command", "writing OAuth tokens to workspace files", "reading beyond metadata and snippets without an explicit scope expansion"]
+  }
+}

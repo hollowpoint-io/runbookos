@@ -1,0 +1,13 @@
+{
+  "id": "shopify-theme-audit",
+  "title": "Shopify Theme Audit",
+  "version": "0.2.0",
+  "triggers": ["theme audit", "shopify theme audit", "theme seo", "theme performance", "liquid audit"],
+  "modelTier": "deep",
+  "requiredTools": ["shopify", "browser"],
+  "writesTo": ["workspace/clients/<client>/theme", "workspace/clients/<client>/reports/shopify"],
+  "safety": {
+    "requiresApprovalFor": ["any theme code push to Shopify, live or dev", "theme publishing", "any other store mutation"],
+    "forbidden": ["publishing a theme during an audit", "pushing fixes without a backup/rollback note", "exposing customer/order data", "storing access tokens"]
+  }
+}

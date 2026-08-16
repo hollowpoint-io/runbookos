@@ -1,0 +1,13 @@
+{
+  "id": "content-writing",
+  "title": "Content Writing",
+  "version": "0.2.0",
+  "triggers": ["write content", "content brief", "product copy", "collection copy", "blog draft"],
+  "modelTier": "deep",
+  "requiredTools": [],
+  "writesTo": ["workspace/clients/<client>/content"],
+  "safety": {
+    "requiresApprovalFor": ["publishing to any live platform", "sending drafts externally"],
+    "forbidden": ["publishing without an explicit publish instruction", "overwriting live copy without saving the old version", "medical, financial, legal, or regulatory claims without source support"]
+  }
+}

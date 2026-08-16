@@ -1,0 +1,13 @@
+{
+  "id": "image-generation",
+  "title": "Image Generation and Editing",
+  "version": "0.2.0",
+  "triggers": ["generate image", "edit image", "product image", "creative asset", "resize image"],
+  "modelTier": "balanced",
+  "requiredTools": ["image"],
+  "writesTo": ["workspace/clients/<client>/assets/generated"],
+  "safety": {
+    "requiresApprovalFor": ["overwriting any existing asset", "uploading assets to a live store or external platform", "publishing anywhere customer-facing"],
+    "forbidden": ["overwriting original/source files", "using private or copyrighted source images without permission"]
+  }
+}

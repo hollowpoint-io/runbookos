@@ -1,0 +1,49 @@
+{
+  "name": "@runbookos/mcp-workspace",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "runbookos-mcp-workspace": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@runbookos/config": "workspace:*",
+    "zod": "^4.3.6"
+  },
+  "author": "Billy Mahmood <https://hollowpoint.io>",
+  "license": "MIT",
+  "homepage": "https://github.com/hollowpoint-io/runbookos",
+  "bugs": {
+    "url": "https://github.com/hollowpoint-io/runbookos/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowpoint-io/runbookos.git",
+    "directory": "packages/mcp-workspace"
+  },
+  "keywords": [
+    "runbookos",
+    "claude",
+    "codex",
+    "mcp",
+    "shopify",
+    "agency",
+    "workspace"
+  ],
+  "files": [
+    "dist"
+  ],
+  "description": "MCP server for safe RunbookOS workspace reads and writes."
+}

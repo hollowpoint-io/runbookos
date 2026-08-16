@@ -1,0 +1,13 @@
+{
+  "id": "seo-research",
+  "title": "SEO Research",
+  "version": "0.2.0",
+  "triggers": ["seo research", "keyword research", "competitor seo", "content gap"],
+  "modelTier": "balanced",
+  "requiredTools": ["ahrefs", "brightdata"],
+  "writesTo": ["workspace/clients/<client>/data", "workspace/clients/<client>/reports"],
+  "safety": {
+    "requiresApprovalFor": ["any live platform write", "sharing findings outside the workspace", "bulk API pulls beyond the mode's minimum"],
+    "forbidden": ["implementing site changes from this skill", "inventing volumes, rankings, or traffic estimates", "storing API keys or credentials in reports"]
+  }
+}

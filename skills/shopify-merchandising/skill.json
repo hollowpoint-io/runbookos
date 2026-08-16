@@ -1,0 +1,13 @@
+{
+  "id": "shopify-merchandising",
+  "title": "Shopify Merchandising Report",
+  "version": "0.2.0",
+  "triggers": ["merch report", "merchandiser report", "weekly report", "product performance"],
+  "modelTier": "balanced",
+  "requiredTools": ["shopify"],
+  "writesTo": ["workspace/clients/<client>/reports/merchandising", "workspace/clients/<client>/data/shopify"],
+  "safety": {
+    "requiresApprovalFor": ["deploying or sharing reports outside the workspace", "any store change a report recommends", "external sends"],
+    "forbidden": ["including customer personal data in reports", "applying price, stock, or status changes from within a report session"]
+  }
+}

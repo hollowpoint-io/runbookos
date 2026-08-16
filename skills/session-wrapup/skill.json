@@ -1,0 +1,13 @@
+{
+  "id": "session-wrapup",
+  "title": "Session Wrap-Up",
+  "version": "0.2.0",
+  "triggers": ["wrap up", "done for today", "save progress", "end session"],
+  "modelTier": "fast",
+  "requiredTools": [],
+  "writesTo": ["memory", "workspace/clients", "ACTIVE_CONTEXT.md"],
+  "safety": {
+    "requiresApprovalFor": ["long-term memory entries for unconfirmed decisions", "deleting or rewriting prior log entries"],
+    "forbidden": ["secrets in memory files", "empty logs for trivial sessions", "logging work that did not happen"]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@runbookos/core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "author": "Billy Mahmood <https://hollowpoint.io>",
+  "license": "MIT",
+  "homepage": "https://github.com/hollowpoint-io/runbookos",
+  "bugs": {
+    "url": "https://github.com/hollowpoint-io/runbookos/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowpoint-io/runbookos.git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "runbookos",
+    "claude",
+    "codex",
+    "mcp",
+    "shopify",
+    "agency",
+    "workspace"
+  ],
+  "files": [
+    "dist"
+  ],
+  "description": "Shared RunbookOS types, workspace helpers, and HTTP retry."
+}
